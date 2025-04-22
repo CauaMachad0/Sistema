@@ -146,3 +146,6 @@ elif aba == "Buscar Contratos":
         st.write(f"📅 Data de Criação: {c.get('data_criacao', 'Desconhecida')}")
         st.write(f"📌 Mini Currículo: {c.get('resumo', 'Não informado')}")
         st.markdown("---")
+
+if __name__ == '__main__':
+    os.system("start cmd /c streamlit run app.py")
